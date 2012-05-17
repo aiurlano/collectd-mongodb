@@ -33,11 +33,11 @@ The following is an example Collectd configuration for this plugin:
         Import "mongodb"
         <Module mongodb>
             Host "127.0.0.1"
-	    Host "mongoserver01"
-	    <Host "mongoserver02" "27017">
+            Host "mongoserver01"
+           <Host "mongoserver02" "27017">
                 Password "password"
                 Database "admin" "db-prod" "db-dev"
-	    </Host>
+           </Host>
         </Module>
     </Plugin>
 
